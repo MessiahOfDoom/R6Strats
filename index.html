@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <style>
+
+        textarea {
+            resize: none;
+            background-color: #2d2d2d;
+            color: #FBC902;
+            font-size: 16px;
+            text-align: center;
+        }
+        #stratName {
+            font-size: 24px;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        button{
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font: 24px Arial Black, sans-serif;
+            color: #FBC902;
+            background: #2d2d2d;
+            box-shadow: 4px 4px 4px 0 rgba(0,0,0,0.3) ;
+        }
+        button:focus {
+            outline: none;
+        }
+        .btnActive{
+            outline-color: #FBC902;
+            text-decoration:underline
+        }
+
+        :root{
+            background-color: #1d1d1d;
+        }
+
+        p {
+            font: 18px Arial, sans-serif;
+            color: #FBC902;
+        }
+        div {text-align: center;}
+
+        table{
+            border: 3px solid #000000;
+            text-align: left;
+            border-collapse: collapse;
+            table-layout: auto;
+        }
+
+        table td, table th {
+            border: 1px solid #000000;
+            padding: 5px 4px;
+        }
+        table tbody td {
+            font: 18px Arial, sans-serif;
+        }
+        table thead {
+            background: #3d3d3d;
+            border-bottom: 3px solid #000000;
+        }
+        table thead th {
+            font-size: 22px;
+            font-weight: bold;
+            color: #FBC902;
+            text-align: left;
+        }
+
+    </style>
+    <script src="./r6strats.js"></script>
+    <script src="./r6strats.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <div class="btnContainer">
+                    <button id="buttonATK" onclick="set_mode(true)" class=btnActive>Attacker</button>
+                    <button id="buttonDEF" onclick="set_mode(false)" class=btnInactive>Defender</button>
+                    <button id="buttonRoll" onclick="display_roll()">Roll</button>
+                </div><br>
+            </tr>
+            <tr>
+                <div class="challengeContainer">
+                    <textarea id="stratName" disabled rows="1" cols="56"></textarea>
+                </div><br>
+            </tr>
+            <tr>
+                <div class="challengeContainer">
+                    <textarea id="stratChallenge" disabled rows="4" cols="80"></textarea>
+                </div><br>
+            </tr>
+        </table>
+
+
+    </div>
+
+</body>

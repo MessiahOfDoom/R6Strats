@@ -1,0 +1,119 @@
+strats = {
+	"attacker": [
+		{
+			"name": "Shield distraction",
+			"challenge": "One player picks Nokk, everyone else a shield operator (Blackbeard does count). The shields move together as a unit, trying to attract as much attention as possible, while Nokk tries completing the objective alone."
+		},
+		{
+			"name": "Walls? What walls?",
+			"challenge": "One player picks thatcher, everyone else picks a hard breacher. Your goal is to open as many hard walls as possible."
+		},
+		{
+			"name": "Come out, come out wherever you are!",
+			"challenge": "Everyone picks an intel operator (so IQ, Dokkaebi, Lion, Jackal and Iana). The goal is to find everyone using your gadgets; the objective cannot be entered until all non recharging gadgets have been used up."
+		},
+		{
+			"name": "Vision denied",
+			"challenge": "Take as many smokes, flashes and/or candelas as possible and spam the objective with them."
+		},
+		{
+			"name": "Stationary cams",
+			"challenge": "Drones cannot move. You can pick them up and throw them, you can look around in them (360° is fine), but you cannot drive around with them. This includes the preparation phase."
+		},
+		{
+			"name": "Pistol only",
+			"challenge": "Only pistols allowed."
+		},
+		{
+			"name": "AR only",
+			"challenge": "Only automatic rifles allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "MP only",
+			"challenge": "Only machine pistols allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "DMR only",
+			"challenge": "Only DMRs (and Kalis sniper) allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "LMG only",
+			"challenge": "Only LMGs allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "Shotgun only",
+			"challenge": "Only shotguns allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "We move as one",
+			"challenge": "All spawn at the same spot. You can never split up."
+		},
+		{
+			"name": "Hijacked communications",
+			"challenge": "You cannot talk during the round, the only way to communicate is via pings."
+		},
+		{
+			"name": "Training exercise",
+			"challenge": "One player picks a random Operator, everyone else picks recruit. All recruits must follow orders by the random operator."
+		},
+		{
+			"name": "Knock knock",
+			"challenge": "You must type 'Knock Knock' in all chat everytime you are opening a door, window or wall."
+		}
+	],
+
+	"defender" : [
+		{
+			"name": "Pistol only",
+			"challenge": "Only pistols allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "SMG only",
+			"challenge": "Only SMGs allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "Shotgun only",
+			"challenge": "Only shotguns allowed. Only non-lethal gadgets/throwables/etc."
+		},
+		{
+			"name": "The perfect trap",
+			"challenge": "Everyone picks a trap operator. All traps must be placed as close to each other as possible."
+		},
+		{
+			"name": "Hide and seek",
+			"challenge": "Everyone needs to hide until the attackers are defusing/securing/extracting. If you are found before that, you can only use your melee weapon."
+		},
+		{
+			"name": "Earrape",
+			"challenge": "Everyone takes an operator with a proximity sensor or Melusi. All sensors and Melusis gadgets have to be placed within the objective room(s)."
+		},
+		{
+			"name": "Protect the Lord",
+			"challenge": "One player picks Tachanka (praise be him), everyone else picks recruit. Tachankas role is to protect the objective, the other players' objective is to protect the Lord."
+		},
+		{
+			"name": "Hijacked communications",
+			"challenge": "You cannot talk during the round, the only way to communicate is via pings."
+		},
+		{
+			"name": "Art studio",
+			"challenge": "Everyone draws a picture on a breachable wall. The wall which is declared to have the best artwork, cannot be reinforced."
+		},
+		{
+			"name": "Open door policy",
+			"challenge": "Every barricadable door and window in and around the objective must be opened and cannot be barricaded later."
+		},
+		{
+			"name": "Training exercise",
+			"challenge": "One player picks a random operator, everyone else picks recruit. All recruits must follow orders by the random operator."
+		},
+		{
+			"name": "We're over here",
+			"challenge": "You must reinforce and defend a fake objective. Only when the attackers are defusing/securing/extracting can you switch back to the real objective."
+		},
+		{
+			"name": "Roaming charges may apply",
+			"challenge": "Everyone picks a roaming operator. As soon as the prep-phase is over, everyone must leave the objective, and cannot reenter it until the attackers are defusing/securing/extracting."
+		}
+	]
+}
